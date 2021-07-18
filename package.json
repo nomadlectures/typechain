@@ -1,0 +1,16 @@
+{
+    "name": "typechain",
+    "version": "1.0.0",
+    "description": "blockchain through typescript",
+    "main": "index.js",
+    "repository": "https://github.com/nomadlectures/typechain3",
+    "author": "231",
+    "license": "MIT",
+    "scripts": {
+        "start": "node index.js",
+        "prestart": "tsc"
+    },
+    "dependencies": {
+        "crypto-js": "^4.0.0"
+    }
+}

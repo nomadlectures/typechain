@@ -1,0 +1,48 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn add cryto-js
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/ffmpeg-N-102965-gf531a1a4e8-win64-gpl/bin:/mnt/c/Users/keybo/anaconda3:/mnt/c/Users/keybo/anaconda3/Library/bin:/mnt/c/Users/keybo/anaconda3/Scripts:/mnt/c/Users/keybo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/keybo/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  10.24.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/cryto-js: Not found
+      at Request.params.callback [as _callback] (/usr/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/usr/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (events.js:198:13)
+      at Request.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (events.js:198:13)
+      at IncomingMessage.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (events.js:286:20)
+      at IncomingMessage.emit (events.js:203:15)
+      at endReadableNT (_stream_readable.js:1145:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+      "name": "typechain",
+      "version": "1.0.0",
+      "description": "blockchain through typescript",
+      "main": "index.js",
+      "repository": "https://github.com/nomadlectures/typechain3",
+      "author": "231",
+      "license": "MIT",
+      "scripts": {
+          "start": "node index.js",
+          "prestart": "tsc"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
